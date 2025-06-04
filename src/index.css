@@ -13,6 +13,9 @@ body {
   align-items: center;
   height: 100vh;
   gap: 50px;
+  background-color: rgb(43, 43, 43);
+  color: white;
+  text-align: center;
 }
 
 header, form {
@@ -45,6 +48,8 @@ form > div > input {
   flex-wrap: wrap;
   border: none;
   transition: border-bottom 0.3s ease-in-out;
+  background-color: transparent;
+  color: white;
 }
 
 form > div > input:focus {
@@ -103,3 +108,37 @@ main > button:hover {
 main > button:active {
   opacity: 0.5;
 }
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  padding: 10px 30px;
+  border-radius: 8px;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  margin-block: 30px;
+  width: 120px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
